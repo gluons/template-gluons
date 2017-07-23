@@ -1,0 +1,23 @@
+{
+  "name": "template-gluons",
+  "version": "1.0.0",
+  "description": "Gluons' personal SAO scaffolding template.",
+  "repository": {
+    "url": "gluons/template-gluons",
+    "type": "git"
+  },
+  "author": "Saran Tanpituckpong <sarunta@gmail.com>",
+  "license": "MPL-2.0",
+  "files": [
+    "sao.js",
+    "template"
+  ],
+  "dependencies": {
+    "superb": "^1.3.0",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-gluons": "^2.0.2"
+  }
+}
