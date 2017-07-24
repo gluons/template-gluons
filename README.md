@@ -1,28 +1,35 @@
 # Template Gluons
 [![license](https://img.shields.io/github/license/gluons/template-gluons.svg?style=flat-square)](./LICENSE)
 
-[gluons](https://github.com/gluons)' personal [SAO](https://github.com/egoist/sao) scaffolding template.
+[gluons](https://github.com/gluons)' personal [SAO](https://sao.js.org/) scaffolding template.
 
-## Usage
+## Installation
 
 Install [SAO](https://github.com/egoist/sao) first.
 
 ```bash
-yarn global add sao
+npm install -g sao
 # or
-npm i -g sao
+yarn global add sao
+```
+Then:
+
+```bash
+npm install -g template-gluons
+# or
+yarn global add template-gluons
+```
+
+### From [npm](https://www.npmjs.com/)
+
+```bash
+sao gluons my-project
 ```
 
 ### From git
 
 ```bash
 sao gluons/template-gluons my-project
-```
-
-### From npm
-
-```bash
-sao gluons my-project
 ```
 
 ## License
