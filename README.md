@@ -20,6 +20,8 @@ npm install -g template-gluons
 yarn global add template-gluons
 ```
 
+## Usage
+
 ### From [npm](https://www.npmjs.com/)
 
 ```bash
