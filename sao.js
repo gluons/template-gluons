@@ -1,10 +1,13 @@
 const superb = require('superb');
 
+const utils = require('./lib/utils');
+
 module.exports = {
 	prompts: {
 		name: {
 			message: 'Project name?',
-			default: ':folderName:'
+			default: ':folderName:',
+			validate: utils.validateName
 		},
 		version: {
 			message: 'Version?',
