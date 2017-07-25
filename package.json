@@ -8,6 +8,9 @@
     "sao.js",
     "template"
   ],
+  "engines": {
+    "node": ">=6"
+  },
   "repository": {
     "url": "git+https://github.com/gluons/template-gluons.git",
     "type": "git"
