@@ -2,16 +2,22 @@
   "name": "template-gluons",
   "version": "1.0.0",
   "description": "Gluons' personal SAO scaffolding template.",
-  "repository": {
-    "url": "gluons/template-gluons",
-    "type": "git"
-  },
   "author": "Saran Tanpituckpong <sarunta@gmail.com>",
   "license": "MPL-2.0",
   "files": [
     "sao.js",
     "template"
   ],
+  "repository": {
+    "url": "git+https://github.com/gluons/template-gluons.git",
+    "type": "git"
+  },
+  "keywords": [
+    "sao",
+    "sao-template",
+    "gluons"
+  ],
+  "homepage": "https://github.com/gluons/template-gluons",
   "dependencies": {
     "superb": "^1.3.0",
     "validate-npm-package-name": "^3.0.0"
