@@ -6,7 +6,8 @@
   "license": "MPL-2.0",
   "files": [
     "sao.js",
-    "template"
+    "template",
+    "lib"
   ],
   "engines": {
     "node": ">=6"
