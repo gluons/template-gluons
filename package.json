@@ -9,6 +9,10 @@
     "template",
     "lib"
   ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
   "engines": {
     "node": ">=6"
   },
