@@ -33,5 +33,8 @@
   "devDependencies": {
     "eslint": "^4.3.0",
     "eslint-config-gluons": "^2.0.2"
+  },
+  "peerDependencies": {
+    "sao": "^0.22.2"
   }
 }

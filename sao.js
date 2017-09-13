@@ -17,9 +17,14 @@ module.exports = {
 			message: 'Description?',
 			default: `My ${superb()} project`
 		},
-		author: {
-			message: 'Author?',
-			default: ':gitUser: <:gitEmail:>',
+		username: {
+			message: "Author's name?",
+			default: ':gitUser:',
+			store: true
+		},
+		email: {
+			message: "Author's email?",
+			default: ':gitEmail:',
 			store: true
 		},
 		license: {
@@ -28,8 +33,9 @@ module.exports = {
 		},
 		homepage: {
 			message: 'Homepage?',
-			default: 'https://github.com/:gitUser:/:folderName:',
-			store: true
+			default({ username, email }) {
+				return `https://github.com/${username}/${email}`;
+			}
 		},
 		mocha: {
 			message: 'Use mocha as test framework?',
